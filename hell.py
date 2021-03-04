@@ -103,6 +103,12 @@ print(x(5))
 def x(a): return a + 10
 
 
+def fn(arg): return arg * 555
+
+
+print(fn(3))
+
+
 print(x(5))
 
 # This is not converted to a 'def' function by PEP8
@@ -110,3 +116,5 @@ print(x(5))
 
 def myfunc(n):
     return lambda a: a * n
+
+# ゼノ発作
