@@ -1,3 +1,6 @@
+import datetime
+
+
 class MyClass:
     x = 5
 
@@ -20,3 +23,17 @@ class Person:
 
 p1 = Person("Jonia", 55555)
 p1.myfunc()
+
+
+x = datetime.datetime.now()
+print(x)
+
+print(datetime.datetime.now())
+print(datetime.datetime.now())
+print(datetime.datetime.now())
+print(datetime.datetime.now())
+print(datetime.datetime.now())
+
+
+for x in range(1000):
+    print(datetime.datetime.now())
